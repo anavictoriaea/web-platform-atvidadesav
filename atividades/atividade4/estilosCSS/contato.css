@@ -1,3 +1,22 @@
 iframe {
   border-radius: 1rem;
 }
+
+#conteudo h1 {
+  font-family: 'Trebuchet MS';
+  font-weight: normal;
+  font-variant: small-caps;
+}
+
+#conteudo h3 {
+  font-family: 'Trebuchet MS';
+  font-weight: lighter;
+  font-style: oblique;
+  font-variant: small-caps;
+}
+
+#conteudo ul li {
+  font-family: 'Trebuchet MS';
+  font-size: small;
+  font-weight: lighter;
+}

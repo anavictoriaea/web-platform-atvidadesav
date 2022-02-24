@@ -8,7 +8,8 @@ html, body {
   width: 85%;
   height: auto;
   margin: auto;
-  padding-left: 80px;
+  padding-right: 40px;
+  padding-left: 30px;
   padding-top: 3px;
   padding-bottom: 3px;
   margin-bottom: 30px;
@@ -16,16 +17,21 @@ html, body {
   border-radius: 0.3rem;
 }
 
-#menu table {
-  margin: 0 auto;
-  margin-right: 5px;
+#menu table tr th {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: 'Trebuchet MS';
+  font-size: medium;
+  font-weight: lighter;
+  color: #92b6b1;
 }
 
-#menu table td {
-  
+#menu a {
+  color: #496e6a;
+  text-decoration: none;
 }
 
-#conteudo{
+#conteudo {
   width: 85%;
   height: auto;
   margin: auto;
@@ -36,4 +42,30 @@ html, body {
   margin-bottom: 30px;
   background-color: #F3F4F6;
   border-radius: 0.3rem;
+  text-align: justify;
+}
+
+footer {
+  margin: auto;
+  width: 85%;
+  height: auto;
+  color:white;
+  font-family: 'Trebuchet MS';
+}
+
+#desv {
+  text-align: right;
+  font-weight: lighter;
+  font-size: small;
+}
+
+#voltar {
+  border-radius: 0.3rem;
+  border: 1px solid;
+  color:white;
+  text-decoration: none;
+}
+
+#desv a {
+  color: white;
 }
