@@ -1,3 +1,15 @@
 html, body {
-  background-image: url("background.png");
+  background-image: linear-gradient(#f5f1e0, #d1dfcd, #a9c6c2, #92a0b5, #7f839f);
+  width: 100% auto;
+  height: 100% auto;
+}
+
+nav {
+  width: 100%;
+  height: 30px;
+  background-color: #F3F4F6;
+  border-color: #606480;
+  border-radius: 0.3rem;
+  border-width: 2px;
+  border-style: solid;
 }
