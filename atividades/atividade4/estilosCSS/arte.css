@@ -45,6 +45,58 @@ html, body {
   text-align: justify;
 }
 
+.conteudo h1 {
+  font-family: 'Trebuchet MS';
+  font-weight: normal;
+  font-variant: small-caps;
+}
+
+.conteudo h2 {
+  font-family: 'Trebuchet MS';
+  font-weight: lighter;
+  font-style: oblique;
+  font-variant: small-caps;
+}
+
+.conteudo h3 {
+  font-family: 'Trebuchet MS';
+  font-weight: normal;
+  font-variant: small-caps;
+  font-style: oblique;
+}
+
+.paragrafo {
+  font-family: 'Trebuchet MS';
+  font-weight: 100;
+  font-size: medium;
+  text-align: justify;
+  text-indent: 50px;
+}
+
+img {
+  border-radius: 0.7rem;
+}
+
+.conteudo a {
+  color: #638958;
+}
+
+#subtitulo {
+  font-family: 'Trebuchet MS';
+  font-weight: lighter;
+  font-size: medium;
+  font-style: oblique;
+  font-variant: small-caps;
+}
+
+.conteudo ol {
+  font-family: 'Trebuchet MS';
+  font-weight: lighter;
+  font-size: small;
+  font-style: oblique;
+  text-align: justify;
+}
+
 footer {
   margin: auto;
   width: 85%;
