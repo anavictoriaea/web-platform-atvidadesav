@@ -1,0 +1,97 @@
+html, body {
+  background-image: linear-gradient(#f5f1e0, #d1dfcd, #a9c6c2, #92a0b5, #7f839f);
+  width: 100% auto;
+  height: 100% auto;
+}
+
+.menu {
+  width: 85%;
+  height: auto;
+  margin: auto;
+  padding-right: 40px;
+  padding-left: 30px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-bottom: 30px;
+  background-color: #F3F4F6;
+  border-radius: 0.3rem;
+}
+
+.menu table tr th {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: 'Trebuchet MS';
+  font-size: medium;
+  font-weight: lighter;
+  color: #92b6b1;
+}
+
+.menu a {
+  color: #496e6a;
+  text-decoration: none;
+}
+
+.conteudo {
+  width: 85%;
+  height: auto;
+  margin: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-bottom: 30px;
+  background-color: #F3F4F6;
+  border-radius: 0.3rem;
+  text-align: justify;
+}
+
+.conteudo h1 {
+  font-family: 'Trebuchet MS';
+  font-weight: normal;
+  font-variant: small-caps;
+}
+
+.conteudo h3 {
+  font-family: 'Trebuchet MS';
+  font-weight: normal;
+  font-variant: small-caps;
+  font-style: oblique;
+}
+
+.paragrafo {
+  font-family: 'Trebuchet MS';
+  font-weight: 100;
+  font-size: medium;
+  text-align: justify;
+  text-indent: 20px;
+}
+
+.paragrafo a {
+  color: #496e6a;
+  text-decoration: none;
+}
+
+footer {
+  margin: auto;
+  width: 85%;
+  height: auto;
+  color:white;
+  font-family: 'Trebuchet MS';
+}
+
+.desv {
+  text-align: right;
+  font-weight: lighter;
+  font-size: small;
+}
+
+.voltar {
+  border-radius: 0.3rem;
+  border: 1px solid;
+  color:white;
+  text-decoration: none;
+}
+
+.desv a {
+  color: white;
+}
