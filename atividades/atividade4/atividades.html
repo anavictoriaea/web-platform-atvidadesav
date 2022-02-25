@@ -1,23 +1,33 @@
-<!DOCTYPE html>
 <html>
   <head>
     <title>Atividades</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estilosCSS/atividades.css">
   </head>
-  <body bgcolor="E6E6FA">
-    <nav>
-      <a href="index.html">Voltar</a>
-      &nbsp; | &nbsp;
-      <a href="contato.html">Contato</a>
+  <body>
+    <nav class="menu">
+    <table>
+    <tr>
+    <th>|</th>
+    <th><a href="../../index.html">Home</a></th>
+    <th>|</th>
+    <th><a href="atividades.html">Atividades</a></th>
+    <th>|</th>
+    <th><a href="arte.html">Galeria de Artes</a></th>
+    <th>|</th>
+    <th><a href="contato.html">Contato</a></th>
+    <th>|</th>
+    </tr>
+  </table>
     </nav>  
+    
+    <main class="conteudo">
+    <h1>Atividades</h1>
     <hr>
-    <header>
-      <h1>Atividades</h1>
-    </header>
-    <main>
-      <table border="1" align="left" cellpadding="5px" bgcolor="000000">
-        <tr bgcolor="D3D3D3">
-          <th bgcolor="E6E6FA"></th>
+    <h3>Cronograma de atividades semanal</h3>
+      <table cellpadding="5px">
+        <tr id="dias">
+          <th></th>
           <th>Domingo</th>
           <th>Segunda</th>
           <th>Terça</th>
@@ -27,56 +37,57 @@
           <th>Sábado</th>
         </tr>
         <tr>
-          <td bgcolor="E6E6FA">8:00</td>
-          <td bgcolor="FFB6C1">Corrida</td>
-          <td bgcolor="F08080">Aula de Matemática</td>
-          <td bgcolor="F08080">Aula de Matemática</td>
-          <td bgcolor="DA70D6">Aula de Geografia</td>
-          <td bgcolor="9370DB">Aula de Português</td>
-          <td bgcolor="FF7F50">Aula de Banco de Dados</td>
-          <td bgcolor="FFB6C1">Corrida</td>
+          <td class="hora">8:00</td>
+          <td class="corrida">Corrida</td>
+          <td class="mat">Aula de Matemática</td>
+          <td class="mat">Aula de Matemática</td>
+          <td class="geo">Aula de Geografia</td>
+          <td class="port">Aula de Português</td>
+          <td class="bd">Aula de Banco de Dados</td>
+          <td class="corrida">Corrida</td>
         </tr>
-          <td bgcolor="E6E6FA">9:00</td>
-          <td bgcolor="BC8F8F">Academia</td>
-          <td bgcolor="F08080">Aula de Matemática</td>
-          <td bgcolor="F0E68C">Clube de vôlei</td>
-          <td bgcolor="DA70D6">Aula de Geografia</td>
-          <td bgcolor="F0E68C">Clube de vôlei</td>
-          <td bgcolor="BDB76B">Aula de História</td>
-          <td bgcolor="BC8F8F">Academia</td>
+          <td class="hora">9:00</td>
+          <td class="academia">Academia</td>
+          <td class="mat">Aula de Matemática</td>
+          <td class="volei">Clube de vôlei</td>
+          <td class="geo">Aula de Geografia</td>
+          <td class="volei">Clube de vôlei</td>
+          <td class="hist">Aula de História</td>
+          <td class="academia">Academia</td>
         </tr>
-          <td bgcolor="E6E6FA">10:00</td>
-          <td bgcolor="9ACD32">Descanso</td>
-          <td bgcolor="FF7F50">Aula de Banco de Dados</td>
-          <td bgcolor="BDB76B">Aula de História</td>
-          <td bgcolor="9370DB">Aula de Português</td>
-          <td bgcolor="32CD32">Aula de Física</td>
-          <td bgcolor="00FF7F">Aula de Biologia</td>
-          <td bgcolor="9ACD32">Descanso</td>
+          <td class="hora">10:00</td>
+          <td class="descanso">Descanso</td>
+          <td class="bd">Aula de Banco de Dados</td>
+          <td class="hist">Aula de História</td>
+          <td class="port">Aula de Português</td>
+          <td class="fisica">Aula de Física</td>
+          <td class="bio">Aula de Biologia</td>
+          <td class="descanso">Descanso</td>
         </tr>
-          <td bgcolor="E6E6FA">11:00</td>
-          <td bgcolor="5F9EA0">Cozinhar</td>
-          <td bgcolor="9370DB">Aula de Português</td>
-          <td bgcolor="BDB76B">Aula de História</td>
-          <td bgcolor="9370DB">Aula de Português</td>
-          <td bgcolor="32CD32">Aula de Física</td>
-          <td bgcolor="00FF7F">Aula de Biologia</td>
-          <td bgcolor="5F9EA0">Cozinhar</td>
+          <td class="hora">11:00</td>
+          <td class="cozinha">Cozinhar</td>
+          <td class="port">Aula de Português</td>
+          <td class="hist">Aula de História</td>
+          <td class="port">Aula de Português</td>
+          <td class="fisica">Aula de Física</td>
+          <td class="bio">Aula de Biologia</td>
+          <td class="cozinha">Cozinhar</td>
         </tr>
-          <td bgcolor="E6E6FA">12:00</td>
-          <td bgcolor="6959CD">Almoçar</td>
-          <td bgcolor="4682B4">Pedir comida</td>
-          <td bgcolor="4682B4">Pedir comida</td>
-          <td bgcolor="4682B4">Pedir comida</td>
-          <td bgcolor="4682B4">Pedir comida</td>
-          <td bgcolor="4682B4">Pedir comida</td>
-          <td bgcolor="6959CD">Almoçar</td>
+          <td class="hora">12:00</td>
+          <td class="almoco">Almoçar</td>
+          <td class="comida">Pedir comida</td>
+          <td class="comida">Pedir comida</td>
+          <td class="comida">Pedir comida</td>
+          <td class="comida">Pedir comida</td>
+          <td class="comida">Pedir comida</td>
+          <td class="almoco">Almoçar</td>
         </tr>
       </table>
     </main>
     <hr>
     <footer>
-      <p align="right">Desenvolvido por <a href="https://github.com/anavictoriaea">Ana Victória</a></p>
+      <a class="voltar" href="index.html">⟵ Voltar</a>
+      <p class="desv">Desenvolvido por <a href="https://github.com/anavictoriaea">Ana Victória</a></p>
     </footer>
   </body>
 </html>
